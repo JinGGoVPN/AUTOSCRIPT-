@@ -42,7 +42,7 @@ wget https://raw.githubusercontent.com/JinGGoVPN/DATA/main/ROOT/grant-root && ch
 
 ```html
 wget https://raw.githubusercontent.com/jinggovpn/DATA/main/XRAY/SLITE/setup.sh && chmod +x setup.sh && ./setup.sh
-
+```
  
  
 # INSTALLATION AUTOSCRIPT LITE VERSION
@@ -71,6 +71,6 @@ wget https://raw.githubusercontent.com/jinggovpn/DATA/main/XRAY/SLITE/setup.sh &
  
 ```html
 wget https://raw.githubusercontent.com/jinggovpn/DATA/main/XRAY/LITE/setup.sh && chmod +x setup.sh && ./setup.sh
-  
+```  
 
   
