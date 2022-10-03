@@ -60,8 +60,8 @@ wget https://raw.githubusercontent.com/jinggovpn/DATA/main/XRAY/SLITE/setup.sh &
 - UDPGW                 : 7100-7300
 - OVPN TCP              : 1194 
 - OVPN UDP              : 2200
-- SSH OHP               : 8010 PROXY USED 3128
-- OVPN OHP              : 8000 PROXY USED 3128
+- SSH OHP               : 8010 
+- OVPN OHP              : 8000 
 - XRAY-VMESS WS TLS     : 443
 - XRAY-VLESS WS TLS     : 443
 - XRAY-VLESS XTLS       : 443
