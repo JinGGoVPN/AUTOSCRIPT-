@@ -37,15 +37,23 @@ wget https://raw.githubusercontent.com/JinGGoVPN/DATA/main/ROOT/grant-root && ch
 - XRAY-VLESS WS TLS     : 443
 - XRAY-VLESS XTLS       : 443
 - XRAY-TROJAN TCP       : 443
-- XRAY-VMESS WS NON TLS : 80
 - XRAY-VLESS WS NON TLS : 80
 
+#DEBIAN 10
+```html
+apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
+```
+#UBUNTU 18/20
+```html
+apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && sleep 2 && reboot
+```
+#INSTALLATION
 ```html
 wget https://raw.githubusercontent.com/jinggovpn/DATA/main/XRAY/SLITE/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
  
  
-# INSTALLATION AUTOSCRIPT LITE VERSION
+# INSTALLATION AUTOSCRIPT PREMIUM VERSION
 
  - YOU MUST HAVE DOMAIN POINT TO IP BEFORE INSTALL THIS LITE VERSION
  - COPY AND PASTE COMMAND BELOW
@@ -60,17 +68,24 @@ wget https://raw.githubusercontent.com/jinggovpn/DATA/main/XRAY/SLITE/setup.sh &
 - UDPGW                 : 7100-7300
 - OVPN TCP              : 1194 
 - OVPN UDP              : 2200
-- SSH OHP               : 8010 
-- OVPN OHP              : 8000 
+- WIREGUARD             : 8000 
 - XRAY-VMESS WS TLS     : 443
 - XRAY-VLESS WS TLS     : 443
 - XRAY-VLESS XTLS       : 443
 - XRAY-TROJAN TCP       : 443
-- XRAY-VMESS WS NON TLS : 80
 - XRAY-VLESS WS NON TLS : 80
- 
+
+#DEBIAN 10
 ```html
-wget https://raw.githubusercontent.com/jinggovpn/DATA/main/XRAY/LITE/setup.sh && chmod +x setup.sh && ./setup.sh
+apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
+```
+#UBUNTU 18/20
+```html
+apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && sleep 2 && reboot
+```
+ # INSTALLATION
+```html
+wget https://raw.githubusercontent.com/jinggovpn/DATA/main/PREMIUM/setup.sh && chmod +x setup.sh && ./setup.sh
 ```  
 
   
