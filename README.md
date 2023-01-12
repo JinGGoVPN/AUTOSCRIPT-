@@ -83,7 +83,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 ```html
 apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && sleep 2 && reboot
 ```
- # INSTALLATION
+ #INSTALLATION
 ```html
 wget https://raw.githubusercontent.com/jinggovpn/DATA/main/PREMIUM/setup.sh && chmod +x setup.sh && ./setup.sh
 ```  
